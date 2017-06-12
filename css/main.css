@@ -1,0 +1,159 @@
+body{
+    border:0;
+    margin:0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header{
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+header img{
+    
+    width: 250px;
+    margin: 10px 30px;
+}
+
+header a:link, a:visited{
+    display: inline-block;
+    text-decoration: none;
+    float: right;
+    color:#42dca3;
+    
+    text-align: center;
+    padding: 14px 5px;    
+    font-size: 30px;
+}
+
+header a:hover, a:active{
+    
+}
+
+header a:after {
+    content:" | ";
+}
+
+.container{
+    margin: 0 50px 0 0;
+}
+
+.div-container{
+    position: relative;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.image-text{
+    
+    position:relative;
+    width: 100%;
+}
+
+
+.image-text-image{
+    width: inherit;
+}
+
+.image-text-text{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 0 0 #000000, 0 2px 0 #000000, -2px 0 #000000, 0 -2px #000000;
+    
+}
+
+.half{    
+    display: inline-block;
+    
+}
+
+.half-left{
+    width: 900px;
+    display: inline-block;
+    
+    margin-left: 10px;
+    margin-right: 0%;    
+    background-color: rgb(60,143,151);
+    font-size: 20px;
+    color: white;
+    padding: 0 5px;
+    
+}
+
+.half-right{
+    width: 950px;
+    display: inline-block;    
+    margin-right: 5px;
+    margin-left: 0px; 
+    margin-top: 0px;
+    float:right;
+}
+
+.half-right img{
+    width: 100%;
+}
+
+.clear-list{
+    list-style: none;
+}
+
+.bottom{
+    width: 100%;
+}
+.bottom-list li{
+    display:inline-block;
+    float:left;    
+    color:black;
+    margin: 0 10px;
+}
+
+.list-active{
+    
+}
+
+.list-not-active{
+    display:none;
+}
+
+.horarios{
+    display: inline-block;
+    position: relative;
+    background: url(../img/clinica-2.JPG) 100px;    
+    color:blue;
+    padding: 100px 0%;
+    margin: 10px 0 0 10px ;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 0 0 #000000, 0 2px 0 #000000, -2px 0 #000000, 0 -2px #000000;
+    font-size: 30px;   
+}
+
+.map{
+    margin: 5px ;
+    height: 300px;   
+    margin-top: 10px;
+}
+
+.map-text{
+    position:absolute;
+    top: 15%;
+    left: 10%;
+    margin: 5px 5px 5px 5px ;
+   
+    width: 500px;
+}
+
+footer{
+    background-color: rgb(60,143,151);
+    text-align: center;
+    padding: 40px 0;
+    color:white;
+    font-size: 25px;
+    
+}
